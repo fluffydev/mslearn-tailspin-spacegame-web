@@ -43,7 +43,7 @@ steps:
     buildConfiguration:'Debug'
 
 - template: template/build.yml
-  parameters;
+  parameters: 
     buildConfiguration:'Relese'
 
 - task: PublishBuildArtifacts@1
